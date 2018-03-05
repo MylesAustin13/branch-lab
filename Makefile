@@ -14,4 +14,4 @@ tests: tests.o $(OBJECTS)
 	g++ -o tests tests.o $(OBJECTS)
 
 clean:
-	rm main.o $(OBJECTS)
+	rm main.o tests.o $(OBJECTS)
